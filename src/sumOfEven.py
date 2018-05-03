@@ -14,3 +14,11 @@ def sumOfEven(num):
     return total
 
 print sumOfEven(100)
+
+def sumOfAll(num):
+    total = 0
+    for i in xrange(num):
+        total += i
+    return total
+
+print sumOfAll(100)
